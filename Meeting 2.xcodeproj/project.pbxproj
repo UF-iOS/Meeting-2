@@ -9,19 +9,19 @@
 /* Begin PBXBuildFile section */
 		3C6032F62176BF1500131658 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6032F52176BF1500131658 /* AppDelegate.swift */; };
 		3C6032F82176BF1500131658 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6032F72176BF1500131658 /* ViewController.swift */; };
-		3C6032FB2176BF1500131658 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C6032F92176BF1500131658 /* Main.storyboard */; };
 		3C6032FD2176BF1700131658 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C6032FC2176BF1700131658 /* Assets.xcassets */; };
 		3C6033002176BF1700131658 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C6032FE2176BF1700131658 /* LaunchScreen.storyboard */; };
+		3C60330B2177124500131658 /* BoldLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C60330A2177124500131658 /* BoldLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3C6032F22176BF1500131658 /* Meeting 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meeting 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C6032F52176BF1500131658 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C6032F72176BF1500131658 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3C6032FA2176BF1500131658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C6032FC2176BF1700131658 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C6032FF2176BF1700131658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C6033012176BF1700131658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C60330A2177124500131658 /* BoldLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoldLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +56,10 @@
 			children = (
 				3C6032F52176BF1500131658 /* AppDelegate.swift */,
 				3C6032F72176BF1500131658 /* ViewController.swift */,
-				3C6032F92176BF1500131658 /* Main.storyboard */,
 				3C6032FC2176BF1700131658 /* Assets.xcassets */,
 				3C6032FE2176BF1700131658 /* LaunchScreen.storyboard */,
 				3C6033012176BF1700131658 /* Info.plist */,
+				3C60330A2177124500131658 /* BoldLabel.swift */,
 			);
 			path = "Meeting 2";
 			sourceTree = "<group>";
@@ -124,7 +124,6 @@
 			files = (
 				3C6033002176BF1700131658 /* LaunchScreen.storyboard in Resources */,
 				3C6032FD2176BF1700131658 /* Assets.xcassets in Resources */,
-				3C6032FB2176BF1500131658 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C60330B2177124500131658 /* BoldLabel.swift in Sources */,
 				3C6032F82176BF1500131658 /* ViewController.swift in Sources */,
 				3C6032F62176BF1500131658 /* AppDelegate.swift in Sources */,
 			);
@@ -143,14 +143,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3C6032F92176BF1500131658 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3C6032FA2176BF1500131658 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3C6032FE2176BF1700131658 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
